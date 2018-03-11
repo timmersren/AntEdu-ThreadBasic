@@ -1,4 +1,4 @@
-package cn.rain.thread.baseic.demo;
+package cn.rain.thread.basic.demo;
 
 public class JoinThreadDemo {
 	public static void main(String[] args) {

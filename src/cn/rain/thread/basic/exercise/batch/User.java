@@ -1,7 +1,7 @@
 /**
  * 
  */
-package cn.rain.thread.basic.example.batch;
+package cn.rain.thread.basic.exercise.batch;
 
 /**  
 * description:   

@@ -1,4 +1,4 @@
-package cn.rain.thread.baseic.demo;
+package cn.rain.thread.basic.demo;
 
 /**
  * 守护线程：和主线程同时销毁。

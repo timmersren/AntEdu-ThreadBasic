@@ -1,4 +1,4 @@
-package cn.rain.thread.basic.example.batch;
+package cn.rain.thread.basic.exercise.batch;
 
 import java.util.List;
 

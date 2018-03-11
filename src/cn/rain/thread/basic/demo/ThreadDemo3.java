@@ -1,4 +1,4 @@
-package cn.rain.thread.baseic.demo;
+package cn.rain.thread.basic.demo;
 
 /**
  * 线程的创建方式3：通过匿名内部类的方式创建

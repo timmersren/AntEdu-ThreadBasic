@@ -1,4 +1,4 @@
-package cn.rain.thread.baseic.demo;
+package cn.rain.thread.basic.demo;
 
 /**
  * 线程的创建方式1：通过继承Thread类创建线程

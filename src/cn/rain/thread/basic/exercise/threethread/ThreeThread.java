@@ -1,4 +1,4 @@
-package cn.rain.thread.basic.example.threethread;
+package cn.rain.thread.basic.exercise.threethread;
 
 /**  
 * description:有t1,t2,t3三条线程，要求t1执行完之后t2再执行，t2执行完成后t3再执行。

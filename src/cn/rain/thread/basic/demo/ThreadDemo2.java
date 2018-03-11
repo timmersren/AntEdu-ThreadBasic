@@ -1,4 +1,4 @@
-package cn.rain.thread.baseic.demo;
+package cn.rain.thread.basic.demo;
 
 /**
  * 线程的创建方式2：通过实现Runable接口
