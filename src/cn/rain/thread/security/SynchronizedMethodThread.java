@@ -1,11 +1,11 @@
-package cn.rain.thread.security.demo;
+package cn.rain.thread.security;
 
 /**  
-* description: 出售100张票的Thread类，同时开启多个线程会产生线程安全问题
+* description:演示通过synchronized同步函数来解决线程安全问题
 * @author 任伟  
 * @date Mar 8, 2018
 */
-public class TicketThread implements Runnable{
+public class SynchronizedMethodThread implements Runnable{
 
 	private int ticketCount = 100;
 	
@@ -21,10 +21,11 @@ public class TicketThread implements Runnable{
 		}
 	}
 	
-	public void sale(){
+	public synchronized void sale(){
 		if (ticketCount > 0) {
-			System.out.println(Thread.currentThread().getName() + "正在出售第" + (100-ticketCount+1) + "张票");
+			System.out.println(Thread.currentThread().getName()
+					+ "正在出售第" + (100-ticketCount+1) + "张票");
 			ticketCount --;
-		}
+			}
 	}
 }

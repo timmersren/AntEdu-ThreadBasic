@@ -1,4 +1,4 @@
-package cn.rain.thread.security.demo;
+package cn.rain.thread.security;
 
 /**  
 * description: 使用synchronized同步代码块解决线程安全问题

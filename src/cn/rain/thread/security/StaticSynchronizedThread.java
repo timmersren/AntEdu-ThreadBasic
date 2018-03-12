@@ -1,4 +1,4 @@
-package cn.rain.thread.security.demo;
+package cn.rain.thread.security;
 
 /**  
 * description:   

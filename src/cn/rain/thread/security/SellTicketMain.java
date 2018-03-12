@@ -1,4 +1,4 @@
-package cn.rain.thread.security.demo;
+package cn.rain.thread.security;
 
 /**
  * description: 演示开启两个线程售票

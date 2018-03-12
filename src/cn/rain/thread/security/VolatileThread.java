@@ -1,4 +1,4 @@
-package cn.rain.thread.security.demo;
+package cn.rain.thread.security;
 
 /**
  * 演示volatile关键字保证变量的可见性
