@@ -1,5 +1,7 @@
 package cn.rain.thread.communication.demo5;
 
+import java.util.HashMap;
+
 /**
  * description: ThreadLocal的原理就是利用Map的key存入currentThread（当前线程的唯一标识），
  * value存入Object（任意类型的对象），来创造一个线程私有的数据存储区。
