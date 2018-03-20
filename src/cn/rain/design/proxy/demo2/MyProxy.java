@@ -1,5 +1,6 @@
 package cn.rain.design.proxy.demo2;
 
+
 /**
  * description: 在demo1中我们知道了，如果我们想实现对于可移动物体（即实现了Movable接口的类）的日志或者打印时间的代理，
  * 我们就需要像LogProxyTank这样的类来实现代理。如果我们有100种需求，就要有100个这样的类，那么我们看下面这段代码。
