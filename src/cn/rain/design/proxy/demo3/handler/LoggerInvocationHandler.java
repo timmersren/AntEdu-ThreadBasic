@@ -12,7 +12,7 @@ public class LoggerInvocationHandler implements MyInvocationHandler {
 	
 	private Object target;
 	
-	public LoggerInvocationHandler(Object target) { // 新建Handler实例的时候需要将代理对象传入
+	public LoggerInvocationHandler(Object target) { // 新建Handler实例的时候需要将被代理对象传入
 		super();
 		this.target = target;
 	}

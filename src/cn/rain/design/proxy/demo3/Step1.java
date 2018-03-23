@@ -47,7 +47,7 @@ public class Step1 {
 		
 		String src =
 				"package cn.rain.design.proxy.demo3.autocompile;" + rt + rt +
-				"// 这是由CompileTest生成的java文件，并且已经进行了编译！！！" + rt +
+				"// 这是由Step1生成的java文件，并且已经进行了编译！！！" + rt +
 				//这里如果直接使用intface那么会调用它的toString方法，从而写出的文件中会多一个interface关键字。
 				"public class AutoProxy implements "+ intface.getName() +"{" + rt + rt + 
 				"	private " +intface.getName()+ " param;" + rt + rt +
