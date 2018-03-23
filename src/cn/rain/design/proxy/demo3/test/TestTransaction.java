@@ -17,7 +17,7 @@ public class TestTransaction {
 		UserService service = new UserServiceImpl(); 
 		MyInvocationHandler handler = new TransactionHandler(service);
 		UserService userService = (UserService) Step2.newProxyInstance(UserService.class, handler);
-//		userService.deleteUser();
+		userService.deleteUser();
 		userService.insertUser();
 	}
 }
