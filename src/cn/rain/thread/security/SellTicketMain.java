@@ -30,6 +30,7 @@ public class SellTicketMain {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
+
 		thread.flag = false;
 		t2.start();
 	}

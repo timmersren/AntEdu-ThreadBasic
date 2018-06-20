@@ -7,7 +7,7 @@ import cn.rain.annotation.demo2.annotation.Service;
  * @author 任伟
  * @date Apr 3, 2018
  */
-@Service
+//@Service
 public class UserService {
 	public void run(){
 		System.out.println("this is user service");
